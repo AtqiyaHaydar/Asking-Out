@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Computer says no;
+    src: url('../ComputerSaysNo/ComputerSaysNo.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Computer says no';
+}
+
+div {
+    margin: 1rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

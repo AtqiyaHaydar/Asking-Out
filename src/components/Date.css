@@ -1,0 +1,104 @@
+.dates {
+    height: 575px;
+    width: 350px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.dates .chat .chara {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fffbf2;
+    transform: translate(4rem, -11.25rem);
+    margin-right: 1rem;
+} 
+
+.dates .chat .bubbles {
+    width: 250px;
+    height: 200px;
+    transform: translate(1.5rem, -11.25rem);
+}
+
+.dates .chat .text {
+    color: black;
+    transform: translate(-11rem, -11.4rem);
+    width:100px;
+    font-weight: bold;
+    width: 150px
+}
+
+.dates .date-done-button {
+    width: 150px;
+    height: 150px;
+    transform: translateY(6rem);
+    cursor: pointer;
+}
+
+.dates .dates-option {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.dates .dates-option > img {
+    width: 325px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.dates .dates-option .ice-skating {
+    transform: translateY(-3rem);
+}
+
+.dates .dates-option .museums {
+    transform: translateY(-2rem);
+}
+
+.dates .dates-option .cat-cafe {
+    transform: translateY(-0.75rem);
+}
+
+.dates .dates-option .movies {
+    transform: translateY(-rem);
+}
+
+.checklist {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.checklist1 {
+    transform: translateY(-10rem);
+    display: none;
+}
+
+.checklist2 {
+    transform: translateY(-4rem);
+    display: none;
+}
+
+.checklist3 {
+    transform: translateY(2rem);
+    display: none;
+}
+
+.checklist4 {
+    transform: translateY(7rem);
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.opacity {
+    opacity: 50%;
+}

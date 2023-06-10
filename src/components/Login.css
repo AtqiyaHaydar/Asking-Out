@@ -1,0 +1,89 @@
+.login {
+    height: 575px;
+    width: 350px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+    transform: translateY(-80px);
+}
+
+.input-box input {
+    width: 90px
+}
+
+.panda-img {
+    width: 200px;
+    height: 200px;
+}
+
+input {
+    padding: 8px 12px;
+    color: white;
+    background: black;
+    border-color: white;
+    outline: none;
+}
+
+input:focus {
+    border-color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    transition: 300ms all ease;
+}
+
+button:hover{
+    background-color: lightgreen;
+}
+
+.wrong-input {
+    position: absolute;
+    display: flex;
+    position: absolute;
+    color: #ffc4d4;
+    transform: translate(-2rem, -6.5rem);
+    font-size: 0.5rem;
+    display: block; /* kondisi awal display: none, input tidak salah dan tidak ada */
+}
+
+.bottom-img {
+    overflow: hidden;
+}
+
+.bird-img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    transform: translate(9rem, 6rem);
+}
+
+.bubble-chat {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    transform: translate(5.5rem, 1.7rem);
+}
+
+.bottom-img p {
+    position: absolute;
+    color: black;
+    text-align: center;
+    transform: translate(5.6rem, 1.2rem);
+}
